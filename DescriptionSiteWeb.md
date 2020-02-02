@@ -10,7 +10,7 @@ C/C++, bases en mathématique, algèbre linéaire, aucune compétence en simulat
 
 ## Quoi apporter
 
-Installation du simulateur open source Coppelia Robotics, IDE pour développer en C/C++.
+Installation du simulateur open source Coppelia Robotics, IDE pour développer en C/C++, installation de opencv (voir document joint).
 
 # Anglais 
 
@@ -24,7 +24,7 @@ C/C++, basics in mathematics, linear algebra, no simulation skills required.
 
 ## What to bring
 
-Installation of Coppelia Robotics (an open source simulator), IDE to develop in C/C++.
+Installation of Coppelia Robotics (an open source simulator), IDE to develop in C/C++, installation of opencv (see attached document).
 
 # Autres informations
 
