@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1582840368 source:c:\users\amiel\desktop\reconst3d_csgame\main.cpp
+	<opencv2/core.hpp>
+	<opencv2/imgcodecs.hpp>
+	<opencv2/highgui.hpp>
+	"opencv2/imgcodecs.hpp"
+	"opencv2/imgproc.hpp"
+	<opencv2/calib3d/calib3d.hpp>
+	<iostream>
+
+1582772697 source:c:\users\amiel\desktop\reconst3d_csgame\src\calibration.cpp
+	"calibration.h"
+
+1582772696 c:\users\amiel\desktop\reconst3d_csgame\include\calibration.h
+
+1582772697 source:c:\users\amiel\desktop\reconst3d_csgames\src\calibration.cpp
+	"calibration.h"
+
