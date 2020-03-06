@@ -20,8 +20,8 @@ Mat T;
 int main( int argc, char** argv )
 {
     //! [load images]
-    String imLeft_file( "left_im.png" );
-    String imRight_file( "right_im.png" );
+    String imLeft_file( "left_im1.png" );
+    String imRight_file( "right_im1.png" );
     Mat imLeft; Mat imRight;
 
     imLeft = imread( imLeft_file , IMREAD_COLOR ); // Read the file
@@ -40,19 +40,20 @@ int main( int argc, char** argv )
         return -1;
     }
 
+    //! [Rectify images]
+
     //stereoRectify input
     Mat distort = (Mat_<double>(8,1) << 0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0);
     Size newImageSize = imLeft.size();
-    //Call function
+    //Call functions
     //stereoRectify();
-    //initUndistortRectifyMap();
     //initUndistortRectifyMap();
     //remap();
 
 
     //! [ Matching ]
     Mat result;
-    int windwsize = 3;
+    int windwsize = 7;
     int iend = 0;
     int jend = 0;
 
@@ -66,6 +67,12 @@ int main( int argc, char** argv )
 
         }
     }
+
+    //! [Disparity map generation]
+
+    Mat Dispaity(rowsRight, colsRight, CV_8UC1);
+
+    //! [Triangulation]
 
 
     //! [ display image in window]
